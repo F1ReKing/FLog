@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.f1reking.flog">
+    <application>
+        <provider
+            android:authorities="${applicationId}.FLogProvider"
+            android:name=".FLogProvider"
+            android:exported="false"
+            />
+    </application>
+</manifest>
